@@ -1,0 +1,12 @@
+{
+  "name": "bitbag/polyfill-security",
+  "type": "library",
+  "description": "Resolve version confilcts in tools used by BitBag",
+  "keywords": ["polyfill", "compatibility", "shim"],
+  "homepage": "https://bitbag.io",
+  "license": "MIT",
+
+  "require": {
+    "php": ">=7.3"
+  }
+}
