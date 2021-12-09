@@ -1,5 +1,0 @@
-{
-  "composer-scripts": {
-    "composer require polishsymfonycommunity/symfony-mocker-container:^1.0 --dev": "script"
-  }
-}

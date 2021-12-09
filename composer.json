@@ -7,8 +7,5 @@
     "require": {
         "php": "^7.3 || ^7.4 || ^8.0",
         "symfony/property-access": "^5.4"
-    },
-    "require-dev": {
-        "polishsymfonycommunity/symfony-mocker-container": "^1.0"
     }
 }
