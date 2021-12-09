@@ -9,7 +9,7 @@ We are hiring developers from all over the world. Join us and start your new, ex
 */
 declare(strict_types=1);
 
-namespace BitBag\SyliusElasticsearchPlugin\CompillerPass;
+namespace BitBag\AuthenticationPolyfill\CompillerPass;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
