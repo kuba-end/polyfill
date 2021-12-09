@@ -1,11 +1,14 @@
 {
-    "name": "bitbag/authentication-polyfill",
-    "description": "Provide compatibility between symfony 5.3 and 5.4",
+    "name": "bitbag/polyfill",
+    "description": "Resolve version confilcts",
     "type": "library",
     "license": "MIT",
 
     "require": {
         "php": "^7.3 || ^7.4 || ^8.0",
         "symfony/property-access": "^5.4"
+    },
+    "require-dev": {
+        "polishsymfonycommunity/symfony-mocker-container": "^1.0"
     }
 }
