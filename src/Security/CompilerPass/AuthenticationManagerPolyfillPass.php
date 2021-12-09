@@ -9,7 +9,7 @@ We are hiring developers from all over the world. Join us and start your new, ex
 */
 declare(strict_types=1);
 
-namespace BitBag\AuthenticationPolyfill\security\CompillerPass;
+namespace BitBag\AuthenticationPolyfill\Security\CompillerPass;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -19,11 +19,11 @@ final class AuthenticationManagerPolyfillPass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         if (
-            false === $container->has('security.authentication_manager')
+            false === $container->has('Security.authentication_manager')
             &&
-            true === $container->has('security.authentication.manager')
+            true === $container->has('Security.authentication.manager')
         ) {
-            $container->setAlias('security.authentication_manager', 'security.authentication.manager');
+            $container->setAlias('Security.authentication_manager', 'Security.authentication.manager');
         }
     }
 }

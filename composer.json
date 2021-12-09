@@ -11,5 +11,10 @@
     },
     "replace": {
         "bitbag/polyfill-security": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitBag\\Polyfill\\": "src/"
+        }
     }
 }
